@@ -2,9 +2,9 @@ name: Android Build
 
 on:               # triggers FIRST
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:             # then jobs
   build:
